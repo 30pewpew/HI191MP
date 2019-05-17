@@ -4,25 +4,36 @@
 
 <h1>Render Data From Database</h1>
 
-<?php 
-error_reporting(E_ERROR | E_PARSE);
-
-$conn = mysqli_connect('localhost', 'root', '');
-if (!$conn) {
-    die('<div class="alert alert-danger" style="margin:1%;">Could not connect to the database. Set Database Username and Password in the file "/how-to/data-from-database.php"</div>');
-}
-$selected_database = mysqli_select_db($conn, "canvasjs_db");
-if (!$selected_database) {
-    die('<div class="alert alert-danger" style="margin:1%;">Required database does not exist. Please import the canvasjs_db.sql file in the downloaded zip package '
-            . '(<a href="https://www.digitalocean.com/community/tutorials/how-to-import-and-export-databases-and-reset-a-root-password-in-mysql" target="_blank">Instructions to Import.</a>).</div>');
-}
-$query = "select * from datapoints";
-$data = mysqli_query($conn, $query);
-$dataPoints = array();
-while ($row = mysqli_fetch_array($data, MYSQL_ASSOC)) {
-    array_push($dataPoints, $row);
-}
-?>
+<?php
+     
+    $dataPoints = array();
+    //Best practice is to create a separate file for handling connection to database
+    try{
+         // Creating a new connection.
+        // Replace your-hostname, your-db, your-username, your-password according to your database
+        $link = new \PDO(   'mysql:host=localhost;dbname=canvasjs_db;charset=utf8mb4', //'mysql:host=localhost;dbname=canvasjs_db;charset=utf8mb4',
+                            'root', //'root',
+                            '', //'',
+                            array(
+                                \PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+                                \PDO::ATTR_PERSISTENT => false
+                            )
+                        );
+        
+        $handle = $link->prepare('select x, y from datapoints'); 
+        $handle->execute(); 
+        $result = $handle->fetchAll(\PDO::FETCH_OBJ);
+            
+        foreach($result as $row){
+            array_push($dataPoints, array("x"=> $row->x, "y"=> $row->y));
+        }
+        $link = null;
+    }
+    catch(\PDOException $ex){
+        print($ex->getMessage());
+    }
+        
+    ?>
 <div id="chartContainer"></div>
 
 <script type="text/javascript">
