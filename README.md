@@ -48,4 +48,7 @@ https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999
 - Start APACHE and MYSQL
 - Access site with localhost in browser
 
-#### Diabetes 
+#### Other Technologies Used
+
+1. largeCSV2mySQL (https://github.com/sanathp/largeCSV2mySQL)
+- For uploading large csv data to database
