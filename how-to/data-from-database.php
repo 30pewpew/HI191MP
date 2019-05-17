@@ -1,10 +1,13 @@
 <?php include '../header.php'; ?>
 <?php include '../sidebar.php'; ?>
 <?php include '../content.php'; ?>
+
 <h1>Render Data From Database</h1>
+
 <?php 
 error_reporting(E_ERROR | E_PARSE);
-$conn = mysqli_connect('localhost:3306', 'root', '');
+
+$conn = mysqli_connect('localhost', 'root', '');
 if (!$conn) {
     die('<div class="alert alert-danger" style="margin:1%;">Could not connect to the database. Set Database Username and Password in the file "/how-to/data-from-database.php"</div>');
 }
