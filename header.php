@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		
-		<title>PHP Chart Samples using CanvasJS</title>
+		<title>HI 191 MP</title>
 		
 		<!-- stylesheets -->
 		<link href="/assets/bootstrap.min.css" rel="stylesheet">
@@ -84,7 +84,7 @@
 					</div>
 					<div class="brand">
 						<a href="/">
-							CanvasJS Examples <span class="hidden-xs text-muted">PHP</span>
+							Analysis <span class="hidden-xs text-muted">HI 191</span>
 						</a>
 					</div>
 					

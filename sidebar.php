@@ -19,6 +19,15 @@
 
 					<li>
 						<ul id="chart-types" class="sub-menu collapse">
+							<li><a href="">Frequency of Readmission</a></li>
+							<li><a href="">Readmissions per Race</a></li>
+							<li><a href="">Readmissions in less than 30 days by Race</a></li>
+							<li><a href="">Readmissions by Age Group</a></li>
+							<li><a href="">Frequency of Readmission</a></li>
+							<li><a href="">Readmissions by Total Number of Days Confined</a></li>
+
+							<!-- Complete list of Charts Below -->
+							<!--
 							<li><a href="/chart-types/column.php">Column Chart</a></li>
 							<li><a href="/chart-types/line.php">Line Chart</a></li>
 							<li><a href="/chart-types/step-line.php">Step Line Chart</a></li>
@@ -26,7 +35,7 @@
 							<li><a href="/chart-types/step-area.php">Step Area Chart</a></li>
 							<li><a href="/chart-types/area.php">Area Chart</a></li>
 							<li><a href="/chart-types/spline-area.php">Spline Area Chart</a></li>
-                                                        <li><a href="/chart-types/bar.php">Bar Chart</a></li>
+                            <li><a href="/chart-types/bar.php">Bar Chart</a></li>
 							<li><a href="/chart-types/pie.php">Pie Chart</a></li>
 							<li><a href="/chart-types/doughnut.php">Doughnut Chart</a></li>
 							<li><a href="/chart-types/bubble.php">Bubble Chart</a></li>

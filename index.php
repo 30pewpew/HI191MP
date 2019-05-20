@@ -1,22 +1,10 @@
 <?php include 'header.php'; ?>
 <?php include 'sidebar.php'; ?>
 <?php include 'content.php'; ?>
-<h1>Home</h1>
+<h1>Exploratory Data Analysis</h1>
 <div id="chartContainer"></div>
 
-<?php
-    $dataPoints = array(
-        array("y" => 6, "label" => "Apple"),
-        array("y" => 4, "label" => "Mango"),
-        array("y" => 5, "label" => "Orange"),
-        array("y" => 7, "label" => "Banana"),
-        array("y" => 4, "label" => "Pineapple"),
-        array("y" => 6, "label" => "Pears"),
-        array("y" => 7, "label" => "Grapes"),
-        array("y" => 5, "label" => "Lychee"),
-        array("y" => 4, "label" => "Jackfruit")
-    );
-?>
+
 
 <script type="text/javascript">
 
