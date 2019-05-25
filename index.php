@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <?php include 'sidebar.php'; ?>
 <?php include 'content.php'; ?>
-<h1>Exploratory Data Analysis</h1>
+<h1>HI 191 MP</h1>
 <div id="chartContainer"></div>
 
 
@@ -13,7 +13,7 @@
             theme: "theme2",
             animationEnabled: true,
             title: {
-                text: "Simple Column Chart in PHP"
+                text: "Select a graph from the sidebar to view data."
             },
             data: [
             {
