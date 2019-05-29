@@ -3,7 +3,7 @@
 // Initialize values
 $server = "127.0.0.1";
 $username = "root";
-$password = "";
+$password = "password";
 $database = "diabetic_db";
 $caucasian = 0;
 $african_american = 0;
@@ -18,7 +18,7 @@ if($connect === false){
 }
 
 // Fetch all Caucasian in table
-$sql = "SELECT * FROM race WHERE race LIKE '%Caucasian%'";
+$sql = "SELECT * FROM readmission WHERE race LIKE '%Caucasian%' AND readmitted != 0";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
@@ -27,7 +27,7 @@ $exec = mysqli_query($connect, $sql);
 $caucasian = mysqli_num_rows($exec);
 
 // Fetch all AfricanAmerican in table
-$sql = "SELECT * FROM race WHERE race LIKE '%African American%'";
+$sql = "SELECT * FROM readmission WHERE race LIKE '%AfricanAmerican%' AND readmitted != 0";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
@@ -35,8 +35,8 @@ $exec = mysqli_query($connect, $sql);
 // Count occurrences
 $african_american = mysqli_num_rows($exec);
 
-// Fetch all AfricanAmerican in table
-$sql = "SELECT * FROM race WHERE race LIKE '%?%'";
+// Fetch all unknown in table
+$sql = "SELECT * FROM readmission WHERE race LIKE ('%?%' OR '%Other%') AND readmitted != 0";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
