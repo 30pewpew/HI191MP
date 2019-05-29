@@ -3,7 +3,7 @@
 // Initialize values
 $server = "127.0.0.1";
 $username = "root";
-$password = "";
+$password = "password";
 $database = "diabetic_db";
 $zero = 0;
 $ten = 0;
@@ -25,7 +25,7 @@ if($connect === false){
 }
 
 // Fetch 0 - 10 age group
-$sql = "SELECT * FROM age WHERE age LIKE '%[0-10]%'";
+$sql = "SELECT * FROM readmission WHERE age LIKE '%[0-10)%' AND readmitted != 0";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
@@ -34,7 +34,7 @@ $exec = mysqli_query($connect, $sql);
 $zero = mysqli_num_rows($exec);
 
 // Fetch 10 - 20 age group
-$sql = "SELECT * FROM age WHERE age LIKE '%[10-20]%'";
+$sql = "SELECT * FROM readmission WHERE age LIKE '%[10-20)%' AND readmitted != 0";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
@@ -43,7 +43,7 @@ $exec = mysqli_query($connect, $sql);
 $ten = mysqli_num_rows($exec);
 
 // Fetch 20 - 30 age group
-$sql = "SELECT * FROM age WHERE age LIKE '%[20-30]%'";
+$sql = "SELECT * FROM readmission WHERE age LIKE '%[20-30)%' AND readmitted != 0";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
@@ -52,7 +52,7 @@ $exec = mysqli_query($connect, $sql);
 $twenty = mysqli_num_rows($exec);
 
 // Fetch 30 - 40 age group
-$sql = "SELECT * FROM age WHERE age LIKE '%[30-40]%'";
+$sql = "SELECT * FROM readmission WHERE age LIKE '%[30-40)%' AND readmitted != 0";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
@@ -61,7 +61,7 @@ $exec = mysqli_query($connect, $sql);
 $thirty = mysqli_num_rows($exec);
 
 // Fetch 40 - 50 age group
-$sql = "SELECT * FROM age WHERE age LIKE '%[40-50]%'";
+$sql = "SELECT * FROM readmission WHERE age LIKE '%[40-50)%' AND readmitted != 0";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
@@ -70,7 +70,7 @@ $exec = mysqli_query($connect, $sql);
 $forty = mysqli_num_rows($exec);
 
 // Fetch 50 - 60 age group
-$sql = "SELECT * FROM age WHERE age LIKE '%[50-60]%'";
+$sql = "SELECT * FROM readmission WHERE age LIKE '%[50-60)%' AND readmitted != 0";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
@@ -79,7 +79,7 @@ $exec = mysqli_query($connect, $sql);
 $fifty = mysqli_num_rows($exec);
 
 // Fetch 60 - 70 age group
-$sql = "SELECT * FROM age WHERE age LIKE '%[60-70]%'";
+$sql = "SELECT * FROM readmission WHERE age LIKE '%[60-70)%' AND readmitted != 0";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
@@ -88,7 +88,7 @@ $exec = mysqli_query($connect, $sql);
 $sixty = mysqli_num_rows($exec);
 
 // Fetch 70 - 80 age group
-$sql = "SELECT * FROM age WHERE age LIKE '%[70-80]%'";
+$sql = "SELECT * FROM readmission WHERE age LIKE '%[70-80)%' AND readmitted != 0";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
@@ -97,7 +97,7 @@ $exec = mysqli_query($connect, $sql);
 $seventy = mysqli_num_rows($exec);
 
 // Fetch 80 - 90 age group
-$sql = "SELECT * FROM age WHERE age LIKE '%[80-90]%'";
+$sql = "SELECT * FROM readmission WHERE age LIKE '%[80-90)%' AND readmitted != 0";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
@@ -106,7 +106,7 @@ $exec = mysqli_query($connect, $sql);
 $eighty = mysqli_num_rows($exec);
 
 // Fetch 90 - 100 age group
-$sql = "SELECT * FROM age WHERE age LIKE '%[90-100]%'";
+$sql = "SELECT * FROM readmission WHERE age LIKE '%[90-100)%' AND readmitted != 0";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
