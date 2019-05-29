@@ -15,9 +15,9 @@
 						<ul id="chart-types" class="sub-menu collapse">
 							<li><a href="/graphs/frequency_readmission_graph.php">Frequency of Readmission</a></li>
 							<li><a href="/graphs/readmissions_per_race_graph.php">Readmissions per Race</a></li>
-							<li><a href="">Readmissions in less than 30 days by Race</a></li>
+							<li><a href="/graphs/readmissions_per_race_less_30_graph.php">Readmissions in less than 30 days by Race</a></li>
 							<li><a href="/graphs/readmissions_by_age_group_graph.php">Readmissions by Age Group</a></li>
-							<li><a href="">Readmissions by Total Number of Days Confined</a></li>
+							<li><a href="/graphs/readmissions_by_time_graph.php">Readmissions by Total Number of Days Confined</a></li>
 					</li>
 					<!-- /the graphs -->
 			</ul>
