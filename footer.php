@@ -4,7 +4,7 @@
 
         <!-- footer -->
         <div id="footer">
-            <p class="text-muted">&#169; 2019 | Rocafort, RS, Santos, Sy</p>
+            <p class="text-muted">&#169; 2019 | Rocafort, Ramos, Santos, Sy</p>
         </div>
         <!-- /footer -->
     </div>
