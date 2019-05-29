@@ -1,15 +1,15 @@
 <?php include '../header.php'; ?>
 <?php include '../sidebar.php'; ?>
 <?php include '../content.php'; ?>
-<?php include '../readmissions_per_race.php'; ?>
+<?php include '../readmissions_by_time.php'; ?>
 <h1>Doughnut Chart</h1>
 <div id="chartContainer"></div>
 
 <?php
     $dataPoints = array(
-        array("y" => ($caucasian * 100 / 46902), "legendText" => "Caucasian", "label" => "Caucasian"),
-        array("y" => ($african_american * 100 / 46902), "legendText" => "African American", "label" => "African American"),
-        array("y" => ($unknown * 100 / 46902), "legendText" => "Unknown", "label" => "Unknown"),
+        array("y" => ($less_week * 100 / 46902), "legendText" => "6 days or less", "label" => "<= 6"),
+        array("y" => ($week_more * 100 / 46902), "legendText" => "7 to 13 days", "label" => "7 - 13"),
+        array("y" => ($two_weeks * 100 / 46902), "legendText" => "14 days", "label" => "14"),
     );
 ?>
 
@@ -17,7 +17,7 @@
     $(function () {
         var chart = new CanvasJS.Chart("chartContainer", {
             title: {
-                text: "Readmissions per Race"
+                text: "Readmissions by Total Number of Days in Hospital"
             },
             animationEnabled: true,
             legend: {

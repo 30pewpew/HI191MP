@@ -1,15 +1,15 @@
 <?php include '../header.php'; ?>
 <?php include '../sidebar.php'; ?>
 <?php include '../content.php'; ?>
-<?php include '../readmissions_per_race.php'; ?>
+<?php include '../readmissions_per_race_less_30.php'; ?>
 <h1>Doughnut Chart</h1>
 <div id="chartContainer"></div>
 
 <?php
     $dataPoints = array(
-        array("y" => ($caucasian * 100 / 46902), "legendText" => "Caucasian", "label" => "Caucasian"),
-        array("y" => ($african_american * 100 / 46902), "legendText" => "African American", "label" => "African American"),
-        array("y" => ($unknown * 100 / 46902), "legendText" => "Unknown", "label" => "Unknown"),
+        array("y" => ($caucasian_less30 * 100 / 11357), "legendText" => "Caucasian", "label" => "Caucasian"),
+        array("y" => ($african_american_less30 * 100 / 11357), "legendText" => "African American", "label" => "African American"),
+        array("y" => ($unknown_less30 * 100 / 11357), "legendText" => "Unknown", "label" => "Unknown"),
     );
 ?>
 
@@ -17,7 +17,7 @@
     $(function () {
         var chart = new CanvasJS.Chart("chartContainer", {
             title: {
-                text: "Readmissions per Race"
+                text: "Readmissions per Race (in less than 30 days)"
             },
             animationEnabled: true,
             legend: {

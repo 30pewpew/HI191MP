@@ -7,16 +7,16 @@
 
 <?php
     $dataPoints = array(
-        array("y" => ($zero * 100 / 101766), "legendText" => "zero", "label" => "[0 - 10]"),
-        array("y" => ($ten * 100 / 101766), "legendText" => "ten", "label" => "[10 - 20]"),
-        array("y" => ($twenty * 100 / 101766), "legendText" => "twenty", "label" => "[20 - 30]"),
-        array("y" => ($thirty * 100 / 101766), "legendText" => "thirty", "label" => "[30 - 40]"),
-        array("y" => ($forty * 100 / 101766), "legendText" => "forty", "label" => "[40 - 50]"),
-        array("y" => ($fifty * 100 / 101766), "legendText" => "fifty", "label" => "[50 - 60]"),
-        array("y" => ($sixty * 100 / 101766), "legendText" => "sixty", "label" => "[60 - 70]"),
-        array("y" => ($seventy * 100 / 101766), "legendText" => "seventy", "label" => "[70 - 80]"),
-        array("y" => ($eighty * 100 / 101766), "legendText" => "eighty", "label" => "[80 - 90]"),
-        array("y" => ($ninety * 100 / 101766), "legendText" => "ninety", "label" => "[90 - 100]"),
+        array("y" => ($zero * 100 / 46902), "legendText" => "0 - 9", "label" => "[0 - 10)"),
+        array("y" => ($ten * 100 / 46902), "legendText" => "10 - 19", "label" => "[10 - 20)"),
+        array("y" => ($twenty * 100 / 46902), "legendText" => "20 - 29", "label" => "[20 - 30)"),
+        array("y" => ($thirty * 100 / 46902), "legendText" => "30 - 39", "label" => "[30 - 40)"),
+        array("y" => ($forty * 100 / 46902), "legendText" => "40 - 49", "label" => "[40 - 50)"),
+        array("y" => ($fifty * 100 / 46902), "legendText" => "50 - 59", "label" => "[50 - 60)"),
+        array("y" => ($sixty * 100 / 46902), "legendText" => "60 - 69", "label" => "[60 - 70)"),
+        array("y" => ($seventy * 100 / 46902), "legendText" => "70 - 79", "label" => "[70 - 80)"),
+        array("y" => ($eighty * 100 / 46902), "legendText" => "80 - 89", "label" => "[80 - 90)"),
+        array("y" => ($ninety * 100 / 46902), "legendText" => "90 - 99", "label" => "[90 - 100)"),
     );
 ?>
 
@@ -26,7 +26,7 @@
     $(function () {
         var chart = new CanvasJS.Chart("chartContainer", {
             title: {
-                text: "Readmission Frequency"
+                text: "Readmissions By Age Group"
             },
             animationEnabled: true,
             legend: {
