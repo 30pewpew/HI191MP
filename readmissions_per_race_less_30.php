@@ -3,7 +3,7 @@
 // Initialize values
 $server = "127.0.0.1";
 $username = "root";
-$password = "piraka570";
+$password = "password";
 $database = "diabetic_db";
 $caucasian_less30 = 0;
 $african_american_less30 = 0;
