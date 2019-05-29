@@ -3,7 +3,7 @@
 // Initialize values
 $server = "127.0.0.1";
 $username = "root";
-$password = "";
+$password = "password";
 $database = "diabetic_db";
 $readmitted_no = 0;
 $readmitted_less30 = 0;
@@ -18,7 +18,7 @@ if($connect === false){
 }
 
 // Fetch all "no readmissions" in table
-$sql = "SELECT * FROM readmitted WHERE readmitted = 0";
+$sql = "SELECT * FROM readmission WHERE readmitted = 0";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
@@ -27,7 +27,7 @@ $exec = mysqli_query($connect, $sql);
 $readmitted_no = mysqli_num_rows($exec);
 
 // Fetch all "readmissions greater than 30 days" in table
-$sql = "SELECT * FROM readmitted WHERE readmitted = 30";
+$sql = "SELECT * FROM readmission WHERE readmitted = 30";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
@@ -36,7 +36,7 @@ $exec = mysqli_query($connect, $sql);
 $readmitted_more30 = mysqli_num_rows($exec);
 
 // Fetch all "readmissions less than 30 days" in table
-$sql = "SELECT * FROM readmitted WHERE readmitted = -30";
+$sql = "SELECT * FROM readmission WHERE readmitted = -30";
 
 // Execute query
 $exec = mysqli_query($connect, $sql);
