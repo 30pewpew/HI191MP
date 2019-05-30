@@ -3,7 +3,7 @@
 // Initialize values
 $server = "127.0.0.1";
 $username = "root";
-$password = "password";
+$password = "";
 $database = "diabetic_db";
 $readmitted_no = 0;
 $readmitted_less30 = 0;

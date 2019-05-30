@@ -3,7 +3,7 @@
 // Initialize values
 $server = "127.0.0.1";
 $username = "root";
-$password = "password";
+$password = "";
 $database = "diabetic_db";
 $less_week = 0;
 $week_more = 0;

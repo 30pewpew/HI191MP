@@ -7,9 +7,9 @@
 
 <?php
     $dataPoints = array(
-        array("y" => ($caucasian * 100 / 46902), "legendText" => "Caucasian", "label" => "Caucasian"),
-        array("y" => ($african_american * 100 / 46902), "legendText" => "African American", "label" => "African American"),
-        array("y" => ($unknown * 100 / 46902), "legendText" => "Unknown", "label" => "Unknown"),
+        array("y" => round($caucasian * 100 / 46902, 2), "legendText" => "Caucasian", "label" => "Caucasian"),
+        array("y" => round($african_american * 100 / 46902, 2), "legendText" => "African American", "label" => "African American"),
+        array("y" => round($unknown * 100 / 46902, 2), "legendText" => "Unknown", "label" => "Unknown"),
     );
 ?>
 
@@ -27,7 +27,7 @@
             theme: "light2",
             data: [
             {
-                type: "doughnut",
+                type: "pie",
                 indexLabelFontFamily: "Garamond",
                 indexLabelFontSize: 20,
                 indexLabel: "{label} {y}%",

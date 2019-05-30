@@ -7,9 +7,9 @@
 
 <?php
     $dataPoints = array(
-        array("y" => ($readmitted_no * 100 / 101766), "legendText" => "NO", "label" => "NO"),
-        array("y" => ($readmitted_less30 * 100 / 101766), "legendText" => "< 30 days", "label" => "< 30 days"),
-        array("y" => ($readmitted_more30 * 100 / 101766), "legendText" => "> 30 days", "label" => "> 30 days"),
+        array("y" => round($readmitted_no * 100 / 101766, 2), "legendText" => "NO", "label" => "NO"),
+        array("y" => round($readmitted_less30 * 100 / 101766, 2), "legendText" => "< 30 days", "label" => "< 30 days"),
+        array("y" => round($readmitted_more30 * 100 / 101766, 2), "legendText" => "> 30 days", "label" => "> 30 days"),
     );
 ?>
 
@@ -27,7 +27,7 @@
             theme: "light2",
             data: [
             {
-                type: "doughnut",
+                type: "pie",
                 indexLabelFontFamily: "Garamond",
                 indexLabelFontSize: 20,
                 indexLabel: "{label} {y}%",

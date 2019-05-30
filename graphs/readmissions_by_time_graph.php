@@ -7,9 +7,9 @@
 
 <?php
     $dataPoints = array(
-        array("y" => ($less_week * 100 / 46902), "legendText" => "6 days or less", "label" => "<= 6"),
-        array("y" => ($week_more * 100 / 46902), "legendText" => "7 to 13 days", "label" => "7 - 13"),
-        array("y" => ($two_weeks * 100 / 46902), "legendText" => "14 days", "label" => "14"),
+        array("y" => round($less_week * 100 / 46902, 2), "legendText" => "6 days or less", "label" => "6 days or less"),
+        array("y" => round($week_more * 100 / 46902, 2), "legendText" => "7 to 13 days", "label" => "7 - 13 days"),
+        array("y" => round($two_weeks * 100 / 46902, 2), "legendText" => "14 days", "label" => "14 days"),
     );
 ?>
 
@@ -27,7 +27,7 @@
             theme: "light2",
             data: [
             {
-                type: "doughnut",
+                type: "pie",
                 indexLabelFontFamily: "Garamond",
                 indexLabelFontSize: 20,
                 indexLabel: "{label} {y}%",
