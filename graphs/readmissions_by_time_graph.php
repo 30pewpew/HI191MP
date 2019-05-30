@@ -2,7 +2,31 @@
 <?php include '../sidebar.php'; ?>
 <?php include '../content.php'; ?>
 <?php include '../readmissions_by_time.php'; ?>
-<h1>Doughnut Chart</h1>
+<h1>Table for Readmissions by Total Number of Days Confined</h1>
+
+ <table style="width:20%">
+  <tr>
+    <th>Time</th>
+    <th>Count</th>
+  </tr>
+  <tr>
+    <td>6 days or less</td>
+    <td><font color=white><?php echo $less_week; ?></td>
+  </tr>
+  <tr>
+    <td>7 - 13 days</td>
+    <td><font color=white><?php echo $week_more; ?></td>
+  </tr>
+  <tr>
+    <td>14 days</td>
+    <td><font color=white><?php echo $two_weeks; ?></td>
+  </tr>
+</table> 
+
+<h5><i>The pie chart below shows that the 6 days or less time is highest at 77.69% and the 14 days time is lowest at 1.09%.</i></h5>
+
+<h1>Pie Chart for Readmissions by Total Number of Days Confined</h1>
+
 <div id="chartContainer"></div>
 
 <?php
