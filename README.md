@@ -35,8 +35,9 @@ https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999
 
 - Download as zip
 - Extract contents to HTDOCS folder
-- Create database with name canvasjs_db (in localhost/phpmyadmin)
-- Import "/mysql-dump/canvasjs_db.sql" into the database
+- Create database with name diabetic_db (in localhost/phpmyadmin)
+- Import "/mysql-dump/diabetic_db.sql" into the database
+- 
 
 #### System Requirements
 
@@ -52,3 +53,6 @@ https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999
 
 1. largeCSV2mySQL (https://github.com/sanathp/largeCSV2mySQL)
 - For uploading large csv data to database
+
+2. HeidiSQL (https://www.heidisql.com/download.php)
+- For uploading large sql file into database
