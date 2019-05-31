@@ -37,7 +37,7 @@ https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999
 - Extract contents to HTDOCS folder
 - Create database with name diabetic_db (in localhost/phpmyadmin)
 - Import "/mysql-dump/diabetic_db.sql" into the database
-- 
+- Rename data to readmission (in localhost/phpmyadmin/diabetic_db sql database)
 
 #### System Requirements
 
