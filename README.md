@@ -62,6 +62,8 @@ Homepage:
 
 ![alt text][homepage]
 
+[homepage]: https://github.com/30pewpew/HI191MP/tree/master/screenshots/Homepage.PNG
+
 Frequency of Readmissions:
 
 ![alt text][frequency]
@@ -83,7 +85,6 @@ Readmissions by Total Number of Days Confined:
 ![alt text][confined]
 
 
-[homepage] : https://github.com/30pewpew/HI191MP/tree/master/screenshots/Homepage.PNG
 [frequency] : https://github.com/30pewpew/HI191MP/tree/master/screenshots/Frequency of Readmission.PNG
 [race] : https://github.com/30pewpew/HI191MP/tree/master/screenshots/Readmissions per Race.PNG
 [30days] : https://github.com/30pewpew/HI191MP/tree/master/screenshots/Readmissions in less than 30 days by Race.PNG
