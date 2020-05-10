@@ -11,15 +11,15 @@
   </tr>
   <tr>
     <td>NO</td>
-    <td><font color=white><?php echo $readmitted_no; ?></td>
+    <td><font color=black><?php echo $readmitted_no; ?></td>
   </tr>
   <tr>
     <td>< 30 Days</td>
-    <td><font color=white><?php echo $readmitted_less30; ?></td>
+    <td><font color=black><?php echo $readmitted_less30; ?></td>
   </tr>
   <tr>
     <td>> 30 Days</td>
-    <td><font color=white><?php echo $readmitted_more30; ?></td>
+    <td><font color=black><?php echo $readmitted_more30; ?></td>
   </tr>
 
 </table> 

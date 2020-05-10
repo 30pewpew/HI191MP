@@ -11,43 +11,43 @@
   </tr>
   <tr>
     <td>[0 - 10)</td>
-    <td><font color=white><?php echo $zero; ?></td>
+    <td><font color=black><?php echo $zero; ?></td>
   </tr>
   <tr>
     <td>[10 - 20)</td>
-    <td><font color=white><?php echo $ten; ?></td>
+    <td><font color=black><?php echo $ten; ?></td>
   </tr>
   <tr>
     <td>[20 - 30)</td>
-    <td><font color=white><?php echo $twenty; ?></td>
+    <td><font color=black><?php echo $twenty; ?></td>
   </tr>
   <tr>
     <td>[30 - 40)</td>
-    <td><font color=white><?php echo $thirty; ?></td>
+    <td><font color=black><?php echo $thirty; ?></td>
   </tr>
   <tr>
     <td>[40 - 50)</td>
-    <td><font color=white><?php echo $forty; ?></td>
+    <td><font color=black><?php echo $forty; ?></td>
   </tr>
   <tr>
     <td>[50 - 60)</td>
-    <td><font color=white><?php echo $fifty; ?></td>
+    <td><font color=black><?php echo $fifty; ?></td>
   </tr>
   <tr>
     <td>[60 - 70)</td>
-    <td><font color=white><?php echo $sixty; ?></td>
+    <td><font color=black><?php echo $sixty; ?></td>
   </tr>
   <tr>
     <td>[70 - 80)</td>
-    <td><font color=white><?php echo $seventy; ?></td>
+    <td><font color=black><?php echo $seventy; ?></td>
   </tr>
   <tr>
     <td>[80 - 90)</td>
-    <td><font color=white><?php echo $eighty; ?></td>
+    <td><font color=black><?php echo $eighty; ?></td>
   </tr>
   <tr>
     <td>[90 - 100)</td>
-    <td><font color=white><?php echo $ninety; ?></td>
+    <td><font color=black><?php echo $ninety; ?></td>
   </tr>
 
 

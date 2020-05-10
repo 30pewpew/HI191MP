@@ -9,9 +9,9 @@
 		<title>HI 191 MP</title>
 		
 		<!-- stylesheets -->
-		<link href="/assets/bootstrap.min.css" rel="stylesheet">
-		<link href="/assets/style.css" rel="stylesheet">
-		<link href="/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href="/HI191MP/assets/bootstrap.min.css" rel="stylesheet">
+		<link href="/HI191MP/assets/style.css" rel="stylesheet">
+		<link href="/HI191MP/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 		<!-- scripts -->
 		
 		<!--[if lt IE 9 ]> 
@@ -20,8 +20,8 @@
 		<![endif]-->
 		
 		<!--script src="/assets/js/	"></script-->
-		<script src="/assets/js/jquery-1.12.4.min.js"></script>
-		<script src="/assets/js/bootstrap.min.js"></script>
+		<script src="/HI191MP/assets/js/jquery-1.12.4.min.js"></script>
+		<script src="/HI191MP/assets/js/bootstrap.min.js"></script>
 		
 		
 		<script>

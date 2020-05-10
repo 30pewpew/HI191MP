@@ -11,15 +11,15 @@
   </tr>
   <tr>
     <td>6 days or less</td>
-    <td><font color=white><?php echo $less_week; ?></td>
+    <td><font color=black><?php echo $less_week; ?></td>
   </tr>
   <tr>
     <td>7 - 13 days</td>
-    <td><font color=white><?php echo $week_more; ?></td>
+    <td><font color=black><?php echo $week_more; ?></td>
   </tr>
   <tr>
     <td>14 days</td>
-    <td><font color=white><?php echo $two_weeks; ?></td>
+    <td><font color=black><?php echo $two_weeks; ?></td>
   </tr>
 </table> 
 

@@ -11,27 +11,27 @@
   </tr>
   <tr>
     <td>Caucasian</td>
-    <td><font color=white><?php echo $caucasian_less30; ?></td>
+    <td><font color=black><?php echo $caucasian_less30; ?></td>
   </tr>
   <tr>
     <td>African American</td>
-    <td><font color=white><?php echo $african_american_less30; ?></td>
+    <td><font color=black><?php echo $african_american_less30; ?></td>
   </tr>
   <tr>
     <td>Asian</td>
-    <td><font color=white><?php echo $asian_less30; ?></td>
+    <td><font color=black><?php echo $asian_less30; ?></td>
   </tr>
   <tr>
     <td>Hispanic</td>
-    <td><font color=white><?php echo $hispanic_less30; ?></td>
+    <td><font color=black><?php echo $hispanic_less30; ?></td>
   </tr>
   <tr>
     <td>Other</td>
-    <td><font color=white><?php echo $other_less30; ?></td>
+    <td><font color=black><?php echo $other_less30; ?></td>
   </tr>
   <tr>
     <td>Unknown</td>
-    <td><font color=white><?php echo $unknown_less30; ?></td>
+    <td><font color=black><?php echo $unknown_less30; ?></td>
   </tr>
 </table> 
 
