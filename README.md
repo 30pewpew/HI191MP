@@ -61,29 +61,35 @@ https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999
 Homepage: 
 
 ![alt text][homepage]
-[homepage]: https://github.com/30pewpew/HI191MP/tree/master/screenshots/homepage.PNG
+
+[homepage]: https://github.com/30pewpew/HI191MP/blob/master/screenshots/homepage.PNG
 
 Frequency of Readmissions:
 
 ![alt text][frequency]
-[frequency]: https://github.com/30pewpew/HI191MP/tree/master/screenshots/frequency.PNG
+
+[frequency]: https://github.com/30pewpew/HI191MP/blob/master/screenshots/frequency.PNG
 
 Readmissions per Race:
 
 ![alt text][race]
-[race]: https://github.com/30pewpew/HI191MP/tree/master/screenshots/race.PNG
+
+[race]: https://github.com/30pewpew/HI191MP/blob/master/screenshots/race.PNG
 
 Readmissions in less than 30 days by Race:
 
 ![alt text][30days]
-[30days]: https://github.com/30pewpew/HI191MP/tree/master/screenshots/30days.PNG
+
+[30days]: https://github.com/30pewpew/HI191MP/blob/master/screenshots/30days.PNG
 
 Readmissions by Age Group:
 
 ![alt text][age]
-[age]: https://github.com/30pewpew/HI191MP/tree/master/screenshots/age.PNG
+
+[age]: https://github.com/30pewpew/HI191MP/blob/master/screenshots/age.PNG
 
 Readmissions by Total Number of Days Confined:
 
 ![alt text][confined]
-[confined]: https://github.com/30pewpew/HI191MP/tree/master/screenshots/confined.PNG
+
+[confined]: https://github.com/30pewpew/HI191MP/blob/master/screenshots/confined.PNG
