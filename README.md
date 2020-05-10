@@ -56,3 +56,36 @@ https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999
 
 2. HeidiSQL (https://www.heidisql.com/download.php)
 - For uploading large sql file into database
+
+#### Screenshots
+Homepage: 
+
+![alt text][homepage]
+
+Frequency of Readmissions:
+
+![alt text][frequency]
+
+Readmissions per Race:
+
+![alt text][race]
+
+Readmissions in less than 30 days by Race:
+
+![alt text][30days]
+
+Readmissions by Age Group:
+
+![alt text][age]
+
+Readmissions by Total Number of Days Confined:
+
+![alt text][confined]
+
+
+[homepage] : https://github.com/30pewpew/HI191MP/tree/master/screenshots/Homepage.PNG
+[frequency] : https://github.com/30pewpew/HI191MP/tree/master/screenshots/Frequency of Readmission.PNG
+[race] : https://github.com/30pewpew/HI191MP/tree/master/screenshots/Readmissions per Race.PNG
+[30days] : https://github.com/30pewpew/HI191MP/tree/master/screenshots/Readmissions in less than 30 days by Race.PNG
+[age] : https://github.com/30pewpew/HI191MP/tree/master/screenshots/Readmissions by Age Group.PNG
+[confined] : https://github.com/30pewpew/HI191MP/tree/master/screenshots/Readmissions by Total Number of Days Confined.PNG
